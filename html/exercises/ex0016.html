@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferemtes
+        ou simplesmente aumente e diminua o tamanho do seu navegador
+    </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/fotopequena.png"
+        type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/fotomedia.png"
+        type="image/png">
+        <img src="imgs/fotogrande.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="media/YU-GI-OH! GX - Abertura 3 Completa em Português (Teardrop) - Nato Vieira.mp3" 
+        type="audio/mpeg">
+        <source src="media/YU-GI-OH! GX - Abertura 3 Completa em Português (Teardrop) - Nato Vieira.ogg" 
+        type="audio/ogg">
+        <source src="media/YU-GI-OH! GX - Abertura 3 Completa em Português (Teardrop) - Nato Vieira.wav" 
+        type="audio/wav">
+        <p>Infelizmente seu audio não consegue ser reproduzido
+            <a href="media/YU-GI-OH! GX - Abertura 3 Completa em Português (Teardrop) - Nato Vieira.mp3" 
+            download="media/YU-GI-OH! GX - Abertura 3 Completa em Português (Teardrop) - Nato Vieira.mp3" type="application/mpeg">
+        </a>
+        </p>
+    </audio>
+</body>
+</html>
