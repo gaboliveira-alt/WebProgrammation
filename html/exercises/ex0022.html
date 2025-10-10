@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+    <style>
+        label {
+            cursor: pointer;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" 
+    target="_blank" autocomplete="off">
+        <section>
+            <h1>Cabeçalho</h1>
+            <p>O Formulario</p>
+            <p>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                <label for="dev">Sou um Dev</label>
+                <input type="checkbox" id="dev" name="dev" value="sim"><br>
+
+                <label for="dev1">Sou um Dev</label>
+                <input type="checkbox" id="dev" name="dev" value="sim"><br>
+
+                <label for="dev2">Sou um Dev</label>
+                <input type="checkbox" id="dev" name="dev" value="sim"><br>
+            </p>
+
+            <p>
+                Genero:<br>
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="feminino" value="feminino"><br>
+
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino"><br>
+
+                <label for="outro_outra">Outro ou Outra</label>
+                <input type="radio" name="genero" id="outra_outro" value="outro_outra">
+            </p>
+
+            <p>
+                <button type="reset">Resetar tudo</button>
+                <button type="submit">Enviar</button>
+            </p>
+        </section>
+    </form>
+</body>
+</html>
