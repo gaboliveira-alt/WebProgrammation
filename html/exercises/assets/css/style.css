@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.color-red {
+    color: darkred;
+}
+
+body div.main-content h2.heading {
+    font-style: italic;
+    color: darkblue;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+.dad > .daughter > span > .daughter {
+    color: darkgreen;
+}
