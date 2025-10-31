@@ -1,0 +1,19 @@
+input:not(:checked) + p {
+    background: darkblue;
+}
+
+p:not(.middle) {
+    color: blue;
+}
+
+ul li:nth-child(even) {
+    background-color: black;
+}
+
+ul li:nth-child(odd) {
+    background-color: aqua;
+}
+
+ul li:nth-child(3n+3) {
+    background-color: brown;
+}

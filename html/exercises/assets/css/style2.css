@@ -3,7 +3,11 @@
 }
 
 .heading:hover {
-    background: blue;
+    background: red;
+}
+
+a {
+    color: darkorange;
 }
 
 a:link {
@@ -11,7 +15,7 @@ a:link {
 }
 
 a:visited {
-    color: blueviolet;
+    color: firebrick;
 }
 
 a:hover {
@@ -21,7 +25,7 @@ a:hover {
 }
 
 a:active {
-    background: darkgreen;
+    background: darkgray;
     color: white;
     text-decoration: none;
 }
@@ -33,6 +37,20 @@ input:focus {
 }
 
 input:disabled {
-    background-color: purple;
+    background-color: rebeccapurple;
     cursor: not-allowed;
+}
+
+input:checked + p{
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.father .list li:last-child {
+    background: red;
+}
+
+input:required {
+    background: blue;
 }
