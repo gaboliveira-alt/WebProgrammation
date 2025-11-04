@@ -1,0 +1,10 @@
+#text {
+    color: blue;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: initial;
+    color: initial;
+}

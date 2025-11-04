@@ -1,0 +1,18 @@
+/*
+ID CLASSES ATRIBUTOS PSEUDO-CLASSES ELEMENTOS 
+E PSEUDO-ELEMENTOS
+
+! important
+*/
+
+body#b.bclass p#p.p::selection:hover {
+    background: blue !important;
+}
+
+#p {
+    background: red;
+}
+
+#p.p {
+    background: tomato;
+} 
