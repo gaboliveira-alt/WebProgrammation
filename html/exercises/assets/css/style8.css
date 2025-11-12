@@ -1,4 +1,4 @@
-
+ 
 .text {
     box-sizing: border-box;
     background: red;
@@ -10,7 +10,7 @@
     min-height: 100px;
     overflow: auto;
     margin: 0 auto 50px auto;
-    padding: 10px 5px 15px 1px;
+    padding: 10px 5px 15px 1px; /* T R D L */
     border-width: 4px;
     border-style: solid;
     border-color: blueviolet;
