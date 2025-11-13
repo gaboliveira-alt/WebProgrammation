@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+.father {
+    height: 300vh;
+}
+
+.son1, .son2, .son3 {
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 255, 0.815);
+    margin: 10px;
+    position: static;
+}
+
+.son2 {
+    background: yellowgreen;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 1;
+}
+
+.son3 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.other {
+    position: absolute;
+    font-size: 5px;
+    background: white;
+    top : 50px;
+    left: 50px;
+}
+
+ul {
+    height: 100%;
+    overflow-y: auto;
+}
+
+ul li.sticky {
+    position: sticky;
+    background: gray;
+    top: 0;
+}
