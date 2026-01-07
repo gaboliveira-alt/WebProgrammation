@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+    height: 400px;
+    gap: 10px;
+}
+
+.flex-item {
+    color: #fff;
+    width: 100%;
+    background: blue;
+}
+
+.flex-item:nth-child(3) {
+    font-size: 50px;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: blue;
+    height: 640px;
+}
+
+.flex-item-1 {
+    width: 33.33%;
+    color: #fff;
+    background: green;
+}
+
+.flex-container-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background: greenyellow;
+}
+
+.flex-item-2 {
+    flex: 1 1 320px;
+    height: 200px;
+    color: #fff;
+    background: black;
+}
+
+.flex-item-2:nth-child(2) {
+    flex: 1 1 320px;
+    height: 200px;
+    color: #fff;
+    background: red;
+}
