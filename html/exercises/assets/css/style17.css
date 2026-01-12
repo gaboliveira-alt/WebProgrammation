@@ -34,16 +34,48 @@ body {
 }
 
 .grid1 .col-content {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 50%;
+}
+
+.grid2 {
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0 auto;
+    padding-top: 73px;
+}
+
+.grid2::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid2 .col {
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 15px;
+}
+
+.grid2 .col-content {
     width: 100%;
     height: 100%;
-    background: yellow;
-    box-shadow: inset 5px 5px 5px blue,
+    background: red;
+    box-shadow: inset 5px 5px 15px 0 blue,
     5px 5px 5px rgba(0, 0, 0, 0.5),
-    inset -5px -5px 5px blue;
+    inset -5px -5px 10px blue;
 }
 
 @media all and (max-width: 568px) {
     .grid1 .col {
+        width: 100%;
+    }
+
+    .grid2 .col {
         width: 100%;
     }
 }
@@ -52,16 +84,28 @@ body {
     .grid1 .col {
         width: 50%;
     }
+
+    .grid2 .col {
+        width: 50%;
+    }
 }
 
 @media all and (min-width: 769px) and (max-width: 1200px) {
     .grid1 .col {
         width: 33.33%;
     }
+
+    .grid2 .col {
+        width: 33.33%;
+    }
 }
 
 @media all and (min-width: 1200px) {
     .grid1 .col {
+        width: 25%;
+    }
+
+    .grid2 .col {
         width: 25%;
     }
 }
